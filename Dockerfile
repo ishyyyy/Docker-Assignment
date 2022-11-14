@@ -13,4 +13,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD [ "python", "client/client.py" ]
+CMD [ "python", "server/server.py" ]
